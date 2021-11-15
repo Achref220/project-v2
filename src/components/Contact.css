@@ -1,0 +1,187 @@
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(0.25turn, #8e8e8f, #bbb9b9, #858484);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    width: 100%;
+    max-width: 1150px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.contact-form{
+    background-color:  rgb(29, 64, 116);
+    position: relative;
+}
+
+.circle{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, rgb(85, 139, 233));
+    position: absolute;
+}
+
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
+}
+.circle.two{
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px;
+}
+
+.contact-form::before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color:  rgb(29, 64, 116);
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+
+form{
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.title8{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.input-container{
+    position: relative;
+    margin: 1rem 0;
+}
+
+label{
+    display: none;
+}
+
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+
+.input{
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding:  0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+textarea.input{
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow-y: auto;
+}
+
+
+
+.btn{
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #09005a;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.contact-info{
+    padding: 2.3rem 2.2rem;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: 575px;
+}
+
+.contact-info .title{
+    color:  rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    margin: 1.5rem 0 2rem 0;
+    font-weight: 500;
+}
+
+.information{
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+
+    align-items: center;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.information svg{
+    margin-right: 0.7rem;
+    color: white;
+}
+.circle11.ten{
+    width: 630px;
+    height: 630px;
+    margin-top: 300px;
+    margin-left: 720px;
+}
+.circle11.eleven{
+    width: 680px;
+    height: 680px;
+    margin-top: -200px;
+    margin-left: -680px;
+}
+
+.circle11{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, rgb(170, 189, 223));
+    position: absolute;
+}

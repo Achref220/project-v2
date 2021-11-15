@@ -1,0 +1,70 @@
+.about-container{
+    height: 120vh;
+    display: flex;
+    background: white;
+    
+}
+
+.cc8{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text5{
+    position: relative;
+    top: 100px;
+    left: 800px;
+    padding: 40px 85px;
+    background-color: rgb(29, 64, 116);
+    width: 450px;
+    height: 500px;
+    color: white;
+}
+.text5 h1{
+    margin-bottom: 20px;
+}
+
+.img1 img{
+    position: relative;
+    height: 480px;
+    width: 450px;
+    bottom: 490px;
+    right: 480px;
+}
+
+.img2 img{
+    z-index: 1;
+    position: relative;
+    border: white solid;
+    width: 400px;
+    height: 350px;
+    bottom: 740px;
+    right: 780px;
+    border-width: 5px;
+}
+.text5 button{
+    position: relative;
+    top: 50px;
+    padding: 10px 25px;
+    background-color: white;
+    text-transform: uppercase;
+    border-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.text5 button:hover{
+    background-color: rgb(29, 64, 116);
+    color: white;
+    cursor: pointer;
+}
+
+.circle.three{
+    width: 630px;
+    height: 630px;
+    margin-top: 300px;
+    margin-left: 720px;
+}
+.circle.four{
+    width: 680px;
+    height: 680px;
+}

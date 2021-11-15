@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    color: white;
+    height: 50px;
+    padding: 10px 10px;
+    z-index: 1;
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+.logo{
+    position: fixed;
+    z-index: 1;
+    margin-left: 20px;
+}
+.liContainer{
+    display: flex;
+    position: relative;
+    left: 1100px;
+}
+
+.liContainer li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: 20px;
+    font-weight: 800;
+}

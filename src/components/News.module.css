@@ -1,0 +1,230 @@
+.global{
+    background-color: rgb(29, 64, 116);
+    height: 250vh;
+}
+
+.header{
+    height: 45vh;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.video{
+    width: 1363px;
+    height: 50vh;
+    object-fit: cover;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 190px;
+    font-weight: 700;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.news{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 130px;
+    right: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: white;
+    top: 50px;
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+.mainContainer img{
+    width: 350px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 8px 10px #202020;
+}
+
+.mainContainer h4{
+    margin-bottom: 20px;
+}
+
+.item2{
+    margin-left: 150px;
+}
+
+.item4{
+    margin-left: 140px;
+}
+
+.item3{
+    position: relative;
+    right: 140px;
+}
+.item1{
+    position: relative;
+    right: 140px;
+}
+
+.item1 h4{
+    position: relative;
+    right: 25px;
+}
+.item2 h4{
+    position: relative;
+    right: 15px;
+}
+.item3 h4{
+    position: relative;
+    right: 25px;
+}
+.mainText{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(29, 64, 116);
+    top: 33px;
+}
+
+.mainText div{
+    margin-right: 20px;
+    border-right-style: solid;
+    border-right-color: rgb(0, 0, 0);
+    padding: 30px;
+    color: white;
+}
+.mainText .b{
+    border-right-style: none;
+}
+.topCon{
+    position: relative;
+    top: 34px;
+    height: 80vh;
+    background-color: white;
+}
+.sidetext{
+    width: 450px;
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+.sidetext h3{
+    font-size: 25px;
+    color: rgb(29, 64, 116);
+}
+.sidetext p{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.iconCards{
+    position: relative;
+    left: 1040px;
+    bottom: 50px;
+    width: 200px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+}
+
+.iconCardsContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: translateZ(145px) rotateY(0);
+    animation: carousel 10s infinite cubic-bezier(1, .015, .295, 1.225) forwards;
+}
+
+.iconCardsItem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 1;
+}
+
+.iconCardsItem:nth-child(1){
+    transform: rotateY(72deg) translateZ(145px);
+    background: url("https://t3.ftcdn.net/jpg/04/06/60/94/360_F_406609490_6XTEHYNqcfqNbkQjN5B2kOy1yIYE5nD1.jpg");
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+.iconCardsItem:nth-child(2){
+    transform: rotateY(144deg) translateZ(145px);
+    background: url("https://mocah.org/uploads/posts/976563-planet-astronaut-space-art-space-digital-art.jpg"); 
+    background-size: 370px;
+    background-repeat: no-repeat;
+}
+
+.iconCardsItem:nth-child(3){
+    transform: rotateY(216deg) translateZ(145px);
+    background: url("https://www.somagnews.com/wp-content/uploads/2020/06/22-1-e1592600424391.jpeg"); 
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.iconCardsItem:nth-child(4){
+    transform: rotateY(288deg) translateZ(145px);
+    background: url("https://spacenews.com/wp-content/uploads/2021/03/crewdragon-cupola-879x485.jpg"); 
+    background-size: 420px;
+    background-repeat: no-repeat;
+}
+.iconCardsItem:nth-child(5){
+    transform: rotateY(360deg) translateZ(145px);
+    background: url("https://i.pinimg.com/originals/ac/ba/2e/acba2e028c4220f723100d46b1de788a.jpg"); 
+    background-size: 370px;
+    background-repeat: no-repeat;
+}
+@keyframes carousel{
+    0%,
+    15%{
+        transform: translateZ(145px) rotateY(0);
+    }
+    25%,
+    40%{
+        transform: translateZ(145px) rotateY(-72deg);
+    }
+    50%,
+    65%{
+        transform: translateZ(145px) rotateY(-144deg);
+    }
+    75%,
+    80%{
+        transform: translateZ(145px) rotateY(-216deg);
+    }
+    95%{
+        transform: translateZ(145px) rotateY(-288deg);
+    }
+}
+.stats{
+    height: 100vh;
+}
+.stats h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    text-transform: uppercase;
+    color: rgb(29, 29, 97);
+}
+.img1{
+    position: relative;
+    width: 950px;
+    top: 200px;
+    left: 250px;
+}
+.himg1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    margin-bottom: 20px;
+}
+

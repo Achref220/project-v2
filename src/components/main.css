@@ -1,0 +1,117 @@
+.container99{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    
+    left: 20px;
+}
+
+.circle1{
+    background-image: url("https://wallup.net/wp-content/uploads/2016/01/6465-clouds-space-ship-blue-spaceship.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border: 5px solid grey;
+}
+
+.circle1 h3{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 900;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    padding: 0 86px 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.circle1:hover{
+    cursor: pointer;
+    border-color: rgb(45, 38, 146);
+}
+
+.circle2{
+    background-image: url("https://images.gludy.com/photos/0/Sci-fi-fantasy-planet-wallpaper_950.jpg");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left: 90px;
+    border: 5px solid grey;
+}
+.circle2 h3{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 900;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    padding: 0 102px 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.circle2:hover{
+    cursor: pointer;
+    border-color: rgb(45, 38, 146);
+}
+
+.circle3{
+    background-image: url("https://image.winudf.com/v2/image/Y29tLnBsYW5ldHN3YWxscGFwZXIua2R4aW1hbl9zY3JlZW5fM18xNTI0Mzk4NDYwXzAyNA/screen-3.jpg?fakeurl=1&type=.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 90px;
+    margin-right: 50px;
+    border: 5px solid grey;
+    z-index: 1;
+}
+.circle3 h3{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 900;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    padding: 0 109px 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.circle3:hover{
+    cursor: pointer;
+    border-color: rgb(45, 38, 146);
+}
+.circle8.six{
+    width: 630px;
+    height: 630px;
+    margin-left: 820px;
+}
+.circle8.seven{
+    width: 680px;
+    height: 680px;
+    margin-top: -200px;
+}
+.circle8{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, rgb(90, 130, 201));
+    position: absolute;
+}
+
