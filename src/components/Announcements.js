@@ -9,8 +9,6 @@ const Announcements = () => {
   }, []);
   return (
     <div className="image222">
-      <span className="circle three"></span>
-      <span className="circle four"></span>
       <div className="leftBox">
         <div className="content-a">
           <h1>Announcements and events</h1>

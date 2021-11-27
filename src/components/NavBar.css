@@ -3,25 +3,42 @@
     color: white;
     height: 50px;
     padding: 10px 10px;
-    z-index: 1;
+    position: relative;
+    z-index: 900;
     width: 100%;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(10px);
 }
 .logo{
     position: fixed;
     z-index: 1;
+    color: rgb(255, 255, 255);
     margin-left: 20px;
+}
+.logo span{
+    color: rgb(0, 106, 226);
 }
 .liContainer{
     display: flex;
     position: relative;
-    left: 1100px;
+    left: 990px;
+}
+
+.link11{
+    text-decoration: none;
+}
+.link12{
+    text-decoration: none;
+}
+.link13{
+    text-decoration: none;
 }
 
 .liContainer li{
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
+    color: rgb(253, 253, 253);
     margin-top: 7px;
-    margin-left: 20px;
-    font-weight: 800;
+    margin-left: 40px;
+    font-weight: 600;
 }

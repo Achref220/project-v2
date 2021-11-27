@@ -1,0 +1,239 @@
+.Logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.logheader{
+    background-image: url("https://wallpaperaccess.com/full/707577.jpg");
+    background-size: 1363px;
+    height: 50vh;
+}
+
+.logheader h1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: white;
+}
+.logimg{
+    width: 500px;
+    height: 250px;
+    margin-left: 45px;
+    margin-bottom: 35px;
+}
+
+.img-content{
+    position: relative;
+    right: 10px;
+    z-index: 1;
+}
+.img-content h1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: rgb(33, 26, 77);
+}
+.logout__button{
+    position: relative;
+    top: -108px;
+    z-index: 999;
+    left: 925px;
+    padding:  15px 15px;
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.user__name{
+    color: rgb(0, 74, 185);
+}
+
+.post-excerpt{
+    position: relative;
+    top: 20;
+    border: solid rgb(165, 163, 163);
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}   
+
+.renPost{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    background-color: rgb(43, 46, 97);
+    width: 1364px;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+}
+.renPost h2{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: wheat;
+}
+
+.p5{
+   margin-bottom: 40px; 
+}
+.post-excerpt h3{
+    color: rgb(1, 0, 32);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.post-excerpt p{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    
+}
+
+.postsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    background-color: rgb(74, 77, 133);
+    width: 1364px;  
+    padding: 40px;
+    color: white;
+}
+.postsec h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: 999;
+}
+
+.postsec p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postsec input{
+    margin-top: 5px;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.button{
+    padding: 7px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 162px;
+}
+.button:hover{
+    background-color: thistle;
+}
+
+.postsec textarea{
+    width: 400px;
+    border-radius: 5px;
+    height: 80px;
+    text-decoration: none;
+    outline: none;
+    resize: none;
+}
+
+.add-img-btn{
+    position: relative;
+    left: 590px;
+    margin-bottom: 70px;
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgb(42, 42, 77);
+    color: wheat;
+    font-weight: 600;
+    border: white;
+}
+
+.open-add{
+    background-color: rgb(36, 30, 70);
+    position: absolute;
+    z-index: 1;
+    left: 485px;
+    top: 0px;
+    width: 400px;
+    height: 150px;
+    padding: 0 50px;
+}
+.open-add p{
+    position: relative;
+    color: white;
+    text-align: center;
+    bottom: 20px;
+}
+.open-add input{
+    position: relative;
+    top: -10px;
+    left: 32px;
+    outline: none;
+}
+.close5{
+    position: relative;
+    left: 330px;
+    bottom: 3px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-top-right-radius: 50%;
+    width: 20px;
+    cursor: pointer;
+}
+.button55{
+    position: relative;
+    top: 30px;
+    right: 82px;
+    padding: 0 10px;
+    border-color: white;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.dlbtn{
+    margin-right: 40px;
+    position: relative;
+    bottom: 270px;
+    right: 15px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 0 3px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.topdv{
+    position: relative;
+    left: 90px;
+}
+.bc-div{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(19, 15, 75, 0.5);
+}

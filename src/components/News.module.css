@@ -12,6 +12,8 @@
 .video{
     width: 1363px;
     height: 50vh;
+    position: relative;
+    bottom: 50px;
     object-fit: cover;
     z-index: 1;
 }

@@ -1,0 +1,157 @@
+.header88{
+    height: 45vh;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.header88 h1{
+    position: relative;
+    text-align: center;
+    bottom: 250px;
+    text-transform: uppercase;
+    color: wheat;
+    letter-spacing: 8px;
+    z-index: 999;
+}
+
+.vid88{
+    width: 1366px;
+    height: 50vh;
+    position: relative;
+    bottom: 50px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.underhead{
+    position: relative;
+    top: 33px;
+    background-color: rgb(37, 44, 85);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.underhead h4{
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+}
+
+.sec1{
+    position: relative;
+    display: flex;
+    top: 10px;
+    height: 70vh;
+    box-sizing: border-box;
+}
+.p1{
+    width: 400px;
+    position: relative;
+    top: 80px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+.vid89{
+    width: 500px;
+    position: relative;
+    top: 77px;
+    left: 330px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.sec2{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 70vh;
+    background-color: rgb(37, 44, 85);
+}
+.vid90{
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: -300px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.p2{
+    width: 400px;
+    position: relative;
+    right: 100px;
+    top: 80px;
+    font-weight: 600;
+    margin-left: 80px;
+    color: wheat;
+}
+.sec3{
+    position: relative;
+    display: flex;
+    height: 70vh;
+    background-color: rgb(233, 234, 241);
+}
+.vid91{
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 340px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.p3{
+    width: 400px;
+    position: relative;
+    top: 80px;
+    font-weight: 600;
+    margin-left: 80px;
+    color: rgb(0, 0, 0);
+}
+.sec4{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 70vh;
+    background-color: rgb(37, 44, 85);
+}
+.vid92{
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: -300px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.p4{
+    width: 400px;
+    position: relative;
+    right: 100px;
+    top: 80px;
+    font-weight: 600;
+    margin-left: 80px;
+    color: wheat;
+}
+.ytvid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    right: 15px;
+}
+.viditem{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.title11 h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 23, 71);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.title11 h1:hover{
+    color: rgb(0, 217, 255);
+}

@@ -1,11 +1,13 @@
 import React from 'react'
 import classes from './News.module.css'
 import video from '../images/video.mp4'
+import NavBar from './NavBar'
 
 function News() {
     return (
         <div className={classes.global}>
             <div className={classes.header}>
+                <NavBar />
             <video className={classes.video} autoPlay loop muted >
                 <source src={video} type="video/mp4" />
             </video>

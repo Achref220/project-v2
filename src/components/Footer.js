@@ -7,15 +7,21 @@ import './content.css'
 
 const Footer = () => {
     return (
-        <Parallax className="footer" bgImage="https://wallpaperaccess.com/full/2124358.jpg" bgImageSizes="400" strength="400">
-            <div className="formCon">
-            <p className="pt-2">
-            <strong>Sign up for our newsletter</strong>
-            </p>
-            <input className="inm" placeholder="Email address" type="email" id="form5Example25"/>
-            <button type="submit">
-                Subscribe
-            </button>
+        <Parallax className="footer">
+            <span className="circle8 t5"></span>
+            <span className="circle8 t6"></span>
+            <div className="container-6">
+                <form action="" className="form-6"> 
+                    <h1>Join our Newsletter</h1>
+                    <p className="fp66">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, amet fugit unde voluptas voluptatem dolores velit numquam delectus ex sunt debitis consequuntur vitae quo minus a recusandae quaerat ea animi.</p>
+                    <div className="email-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                    </svg>
+                    <input className="tbox" type="email" placeholder="Enter your email"/>
+                    <button className="btn66" type="button">Subscribe</button>
+                    </div>
+                </form>
             </div>
             <div className="icon-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">

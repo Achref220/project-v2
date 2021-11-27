@@ -8,11 +8,12 @@
     position: relative;
     height: 100vh;
 }
+
 .image222{
     position: relative;
     height: 100vh;
     margin-bottom: 50px;
-    background: linear-gradient(0.25turn, #8e8e8f, #bbb9b9, #858484);
+    background: rgb(29, 29, 56);
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -26,8 +27,8 @@
 
 .des1 {
     position: relative;
-    top: 500px;
-    left: 400px;
+    top: 410px;
+    left: 380px;
 }
 
 .text4{
@@ -68,16 +69,63 @@
     cursor: pointer;
 }
 .footer{
-    height: 35vh;
+    height: 80vh;
+    text-align: center;
+    background-color: white;
 }
 .des1 p{
-    color: white;
     font-size: 20px;
+    z-index: 900;
     font-weight: 900;
-    color: #07395a;
+    position: relative;
+    bottom: 750px;
+    color: #ffffff;
     background: transparent;
     text-shadow: 1px 0px 1px #494848, 0px 1px 1px #9b9797, 2px 1px 1px #CCCCCC, 1px 2px 1px #999595, 3px 2px 1px #CCCCCC, 2px 3px 1px #afa7a7, 4px 3px 1px #CCCCCC, 3px 4px 1px #a8a0a0;
     
+}
+.link1{
+    text-decoration: none;
+}
+.des1 h4{
+    z-index: 900;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    padding: 10px 25px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 150px;
+    left: 222px;
+    bottom: 630px;
+}
+.req1{
+    margin-top: 10px;
+    width: 250px;
+    font-size: 13px;
+    position: relative;
+    bottom: 340px;
+    border-radius: 5px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    left: 552px;
+}
+.link2{
+    text-decoration: none; 
+}
+.req1:hover{
+    background-color: rgb(49, 48, 102);
+    color: white;
+}
+.des1 h4:hover{
+    background-color: rgb(49, 48, 102);
+    color: white;
 }
 
 .image1{
@@ -91,6 +139,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
+    z-index: 900;
 }
 
 .text-box{
@@ -104,11 +153,19 @@
 }
 .content1 h1.img-txt{
     position: relative;
+    bottom: 820px;
     right: 40px;
     font-size: 14vw;
     color: transparent;
     -webkit-text-stroke: 0.1vw transparent;
     text-transform: uppercase;
+    z-index: 900;
+}
+.container-6 p{
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 .content1 h1.img-txt::before{
@@ -131,14 +188,14 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 170px;
+    top: 100px;
 }
 .icon-container svg{
     margin-left: 25px;
     position: relative;
     bottom: 20px;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(25, 21, 49);
 }
 .inm::placeholder{
     color: black;
@@ -155,3 +212,67 @@
         width: 100%;
     }
 };
+
+.container-6 p{
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 25px;
+    font-weight: 300;
+}
+.container-6 h1{
+    color: rgb(23, 24, 104);
+}
+
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center ;
+}
+.email-box svg{
+    background: rgb(24, 24, 71);
+    width: 55px;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+.tbox, .btn66{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+    background-color: rgb(196, 196, 196);
+}
+.email-box:hover > .tbox, tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+.btn66{
+    background: rgb(24, 24, 71);
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.circle8.t5{
+    width: 830px;
+    height: 830px;
+    margin-left: -720px;
+}
+.circle8.t6{
+    width: 880px;
+    height: 880px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+.circle8{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, rgb(90, 130, 201));
+    position: absolute;
+}
+
+
+
